@@ -1,0 +1,128 @@
+@import url('https://fonts.googleapis.com/css2?family=Gemunu+Libre:wght@200&display=swap');
+body{
+    margin: auto;
+    padding: auto;
+    border: 2px solid black;
+    background: url("../images/background.jpg");
+    color: white;
+}
+/* ito naman design to para sa kabuuan ng container */
+.container{
+    margin: auto;
+    padding: 5px;
+    
+}
+.logo-header{
+    width: 100%;
+    height: 25%;
+    margin-top: 15px;
+}
+.logo-header img{
+    width: auto;
+    height: 70%;
+    margin-left: 10%;
+}
+.logo-header .header-buttons{
+    float: right;
+    
+}
+.logo-header .header-buttons li{
+    display: inline;
+    
+}
+.logo-header .header-buttons ul{
+    margin-top: 15px;
+}
+.logo-header .header-buttons li button{
+    font-size: 20px;
+    width: 100px;
+    height: 40px;
+    border: 1.5px solid white;
+    background: none;
+    color: greenyellow;
+    cursor: pointer;
+    transition: ease 0.3s;
+    font-family: 'Gemunu Libre', sans-serif;
+    font-weight: bold;
+
+}
+.logo-header .header-buttons li button:hover{
+    font-size: 20px;
+    width: 100px;
+    height: 40px;
+    border: 1.5px solid lightgray;
+    background: lightgrey;
+    color: black;
+    font-weight: bold;
+    cursor: pointer;
+    transition: ease 0.3s;
+    font-family: 'Gemunu Libre', sans-serif;
+}
+.logo-header .header-buttons li button a{
+    text-decoration: none;
+}
+/* ito line nato para to sa designing ng logo at banner lahat ng code na konektado sa banner at logo dito lng ilalagay para maayos ang code natin */
+
+/* content designing */
+.content{
+    text-align: center;
+    color: white;
+    font-size: 30px;
+    font-family: 'Gemunu Libre', sans-serif;
+    font-weight: bold;
+}
+.content #website{
+    color: gold;
+}
+.content button{
+    width: 200px;
+    height: 50px;
+}
+.content #subs{
+    background: none;
+    border: 2px solid white;
+    border-radius: 5px;
+    font-size: 30px;
+    color: rgb(217, 255, 0);
+    font-family: 'Gemunu Libre', sans-serif;
+    font-weight: bolder;
+    cursor: pointer;
+    transition: ease 0.3s;
+}
+.content #subs:hover{
+    background: crimson;
+    border: 2px solid crimson;
+    border-radius: 5px;
+    font-size: 35px;
+    color: rgb(217, 255, 0);
+    font-family: 'Gemunu Libre', sans-serif;
+    font-weight: bolder;
+    cursor: pointer;
+    transition: ease 0.3s;
+    width: 250px;
+    height: 60px;
+}
+.content #watch{
+    background: blue;
+    border: 2px solid blue;
+    border-radius: 5px;
+    font-size: 30px;
+    color: white;
+    font-family: 'Gemunu Libre', sans-serif;
+    font-weight: bolder;
+    cursor: pointer;
+    transition: ease 0.3s;
+}
+.content #watch:hover{
+    background: none;
+    border: 2px solid white;
+    border-radius: 5px;
+    font-size: 35px;
+    color: rgb(217, 255, 0);
+    font-family: 'Gemunu Libre', sans-serif;
+    font-weight: bolder;
+    cursor: pointer;
+    transition: ease 0.3s;
+    width: 250px;
+    height: 60px;
+}

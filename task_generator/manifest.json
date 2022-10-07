@@ -1,0 +1,22 @@
+{
+    "manifest_version": 2,
+    "name": "Task generator",
+    "version": "1.0.0",
+    "minimum_chrome_version": "46",
+    "content_security_policy": "script-src 'self' 'sha256-WOdSzz11/3cpqOdrm89LBL2UPwEU9EhbDtMy2OciEhs='",
+    "background": {
+      "script": "js/generator.js"
+    },
+    
+    "page_action" : {
+        "default_title": "Whereami?",
+        "default_popup" : "index.html"
+    },
+
+    "content_scripts" : [
+        {
+            "matches" : ["<all_urls>"],
+            "css" : ["./css/custom.css"]
+        }
+    ]
+  }
