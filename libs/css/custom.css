@@ -39,7 +39,7 @@ body{
     height: 40px;
     border: 1.5px solid white;
     background: none;
-    color: greenyellow;
+    color: red;
     cursor: pointer;
     transition: ease 0.3s;
     font-family: 'Gemunu Libre', sans-serif;
