@@ -9,37 +9,48 @@
 
     <!-- ito naman para to sa css dapat ang mga folder natin naka organize para di siya makalat tignan -->
     <link rel="stylesheet" href="libs/css/custom.css">
+    <link rel="stylesheet" href="libs/css/signup.css">
 </head>
 <body>
     
     <div class="container">
         <div class="logo-header">
             <img src="libs/images/logo.png" alt="">
-            <div class="header-buttons">
-                <ul>
-                    <li>
-                        <a href="#">
-                            <button>Home</button>
-                        </a>
-                    </li>
-                    <li>
-                        <a href="#">
-                            <button>Products</button>
-                        </a>
-                    </li>
 
-                    <li>
-                        <a href="#">
-                            <button>Services</button>
-                        </a>
+            <?php
 
-                    </li>
-                    <li>
-                        <a href="#">
-                            <button>About</button>
-                        </a>
-                    </li>
-                </ul>
-            </div>
+                if ($page_title == "Index") {
+                    echo "<div class='header-buttons'>";
+                        echo "<ul>";
+                            echo "<li>";
+                                echo "<a href='#'>";
+                                    echo "<button>Home</button>";
+                                echo "</a>";
+                            echo "</li>";
+
+                            echo "<li>";
+                                echo "<a href='#'>";
+                                    echo "<button>Products</button>";
+                                echo "</a>";
+                            echo "</li>";
+        
+                            echo "<li>";
+                                echo "<a href='#'>";
+                                    echo "<button>Services</button>";
+                                echo "</a>";
+        
+                            echo "</li>";
+                            
+                            echo "<li>";
+                                echo "<a href='#'>";
+                                    echo "<button>About</button>";
+                                echo "</a>";
+                            echo "</li>";
+                        echo "</ul>";
+                echo "</div>";
+                }
+            
+            
+            ?>
 
         </div>

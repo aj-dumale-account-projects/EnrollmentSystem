@@ -1,5 +1,6 @@
 <?php
 
+//page title
 $page_title = "Index";
 include_once "layout_head.php";
 ?>
